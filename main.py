@@ -156,7 +156,7 @@ async def search2(ctx, name):
 
 # メッセージの検索コマンド※プルス
 @bot.command()
-async def search(ctx, name):
+async def search3(ctx, name):
     tournament_channel_id =   # 組分け情報が記載されているチャンネルのIDを設定してください
     tournament_channel = bot.get_channel(tournament_channel_id)
 
@@ -186,7 +186,7 @@ async def search(ctx, name):
 
 # メッセージの検索コマンド※フォーマン
 @bot.command()
-async def search(ctx, name):
+async def search4(ctx, name):
     tournament_channel_id =   # 組分け情報が記載されているチャンネルのIDを設定してください
     tournament_channel = bot.get_channel(tournament_channel_id)
 
