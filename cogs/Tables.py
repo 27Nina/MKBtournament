@@ -34,7 +34,7 @@ class Tables(commands.Cog):
                 return
             table = tRound.rooms[roomNum-1].table
         sb = table.scoreboard()
-        msg = f"```{sb}```\nhttps://hlorenzi.github.io/mk8d_ocr/table.html"
+        msg = f"!submit\n```{sb}```\nhttps://hlorenzi.github.io/mk8d_ocr/table.html"
         await ctx.send(msg)
 
     async def tableEmbed(self, ctx, tournament, tround, room, data):
